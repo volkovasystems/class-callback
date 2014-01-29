@@ -2,13 +2,14 @@
 
 */
 
-( function module( ){
-	var Callback = function Callback( ){
-		if( this instanceof Callback ){
+Callback = function Callback( ){
+	if( this instanceof Callback ){
 
-		}else{
-			return new Callback( )
-		}
-	};
-} )( );
+	}else{
+		return new Callback( )
+	}
+};
 
+Callback.prototype.route = function route( ){
+
+};
