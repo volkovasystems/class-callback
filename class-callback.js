@@ -1,7 +1,6 @@
 /*:
 
 */
-
 Callback = function Callback( ){
 	if( this instanceof Callback ){
 
